@@ -4,7 +4,6 @@ body {
   background-image: url("../assets/fondoblack.jpg");
   background-position: cover;
 }
-
 /* LOGO DEL NAVBAR BOOTSTRAP*/
 .logo {
   cursor: pointer;
@@ -15,7 +14,6 @@ body {
   transform: scale(1.2);
   transition: all 0.3s;
 }
-
 /* NAVBAR  BOOTSTRAP*/
 @keyframes rotar {
   from {
@@ -42,7 +40,6 @@ body {
   transform: scale(1.1);
   color: black;
 }
-
 .nav-link-carro button {
   background-color: red;
   color: black;
@@ -60,7 +57,6 @@ body {
   transform: scale(1.1);
   color: black;
 }
-
 /* INDEX */
 .container-img .img-fluid {
   margin-top: 120px;
