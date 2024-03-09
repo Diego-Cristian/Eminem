@@ -1,0 +1,330 @@
+@import "./partials/fonts";
+@import "./partials/variables";
+@import "./partials/condicionales";
+
+/* LOGO DEL NAVBAR BOOTSTRAP*/
+.logo {
+    cursor: pointer;
+/* Animacion */
+animation: rotar 3s ease-in-out infinite;
+
+    &:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+    }
+}
+  
+  /* NAVBAR  BOOTSTRAP*/
+  @keyframes rotar {
+    from{
+        transform: rotatey(0deg);
+    }
+    to{
+        transform: rotatey(360deg);
+    }
+  }
+
+.nav-link button {
+    background-color: red;
+    margin-left: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 9px 25px;
+    background: rgba(189, 3, 3, 0.884);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  
+    &:hover{
+    background-color: white;
+    transform: scale(1.1);
+    color: $color-primary;
+     }
+}
+  
+  .nav-link-carro button {
+    background-color: red;
+    color: black;
+    padding: 9px 15px;
+    background: yellow;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 5px;
+    margin-left: 50px;
+  
+    &:hover {
+    background-color: white;
+    transform: scale(1.1);
+    color: black;
+    }
+}
+  
+
+
+  /* INDEX */
+.container-img .img-fluid {
+    margin-top: 120px;
+    width: 800px;
+  }
+  
+  .col-5 .img-fluid {
+    margin-bottom: 30px;
+    margin-left: 115px;
+  }
+  
+  .texto {
+    color: white;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 3.5;
+  }
+  
+  h2 {
+    color: white;
+  }
+  
+.biografia{
+  margin-top: 20px;
+}
+
+
+
+  /* GALERIA */
+.card-body1 {
+     background-color: rgba(0, 0, 0, 0);
+     height: 200px;
+     border-radius: 20px;
+     
+    
+    &:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    }
+}
+
+
+
+.card:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all 1s;
+}
+
+
+.fotos .card-img-top{
+    border-radius: 10px;
+    border-style: outset;
+    
+}
+
+.fotos:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+
+
+
+
+/* DISCOGRAFIA */
+h1 {
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-shadow: 2px 2px 4px $color-primary;
+    border-radius: 15px;
+    background-color: rgba(128, 0, 0, 0.63);
+    text-align: center;
+    margin-top: 100px;
+  
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+     }
+  }
+  
+  .clasep {
+    color: rgb(190, 0, 0);
+    cursor: pointer;
+    border: 1px solid;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.548);
+  
+     &:hover {
+     transform: scale(1.8);
+     transition: all 0.3s;
+  }
+}
+
+  iframe {
+    margin-bottom: 100px;
+    margin-left: 75px;
+    border-radius: 20px;
+  }
+  
+  .boton {
+    border-radius: 15px;
+    background-color: green;
+    padding: 10px 5px 10px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    align-items: center;
+    letter-spacing: 5px;
+  }
+
+
+
+
+
+
+  /* TOUR */
+ul .paises {
+    color: rgb(190, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style-type: none;
+  }
+  
+  li{
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    font-size: 16px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+
+
+
+
+  /* SHOP */
+/* CARDS */
+.text-justify {
+    text-align: justify;
+    color: white;
+  }
+  
+  .display-3 {
+    color: white;
+  }
+  
+  .card:hover {
+    opacity: 0.9;
+  }
+  
+  .card-body {
+    background-color: rgb(211, 211, 211);
+    border-radius: 15px;
+    color: black;
+  
+    &:hover{
+    background-color: rgba(187, 0, 0, 0.87);
+    color: white;
+  }
+}
+
+  .card-text {
+    text-align: justify;
+  }
+  
+  .nav-link {
+    font-weight: 600;
+  }
+  
+  #txtComment {
+    resize: none;
+  }
+  
+  p{
+    color: white;
+  }
+  
+  @media (max-width: 576px){
+    .card-text {
+      font-size: 0.8rem;
+    }
+  }
+
+
+
+  /* CONTACTO */
+.textos {
+    color: white;
+  }
+  
+.micro {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    width: 20%;
+  }
+  
+.text-center {
+    color: white;
+  }
+
+
+
+/* FOOTER */
+
+.footer{
+    background-color: rgb(94, 94, 94);
+    padding: 0px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+
+
+    &-row{
+    display: flex;
+    }
+}
+
+.footer-links{
+    width: 200%;
+    padding: 0 15px;
+    margin-top: 7px;
+
+    & ul li a{
+    font-size: 18px;
+    color: $color-primary;
+    display: block;
+    margin-bottom: 15px;
+    
+    }
+}
+
+.social-link a{
+display: inline-block;
+min-height: 1px;
+width: 50px;
+background-color: rgba(219, 0, 0, 0.562);
+margin: 10 10px 10px 10;
+text-align: center;
+line-height: 40px;
+border-radius: 60%;
+border-style: solid;
+color: white;
+margin-right: 10px;
+
+    &:hover{
+    background-color: rgb(190, 0, 0);
+    transform: scale(1.2);
+    transition: all 0.5s;
+    color: $color-primary;
+    }
+}
